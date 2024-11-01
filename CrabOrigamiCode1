@@ -19,7 +19,7 @@ Public class CrabOrigami {
 	}
 	{Grab(right top layer);
 		Fold(over to the left covering leg);
-	
+	}
 	LegFold();
 	Fold(open to show both legs);
  	Flip(over);
@@ -33,7 +33,7 @@ Public class CrabOrigami {
 	Fold(Up point at bottom);
 	Flip();
 	Draw(eyes);
-
+}
 
 		
 
