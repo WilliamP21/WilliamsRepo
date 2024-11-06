@@ -1,0 +1,60 @@
+Public class CrabOrigami {
+	{For(loop 1)
+		{foldPaper(in half);
+			unfoldPaper();
+			}
+	}
+	flipPaper()
+	{For(loop 1)
+		{foldPaper(diagonal);
+		  unfoldPaper();
+    }
+    rotatePaper(90) 
+	}
+	pushPaper(to make a triangle);
+	LegFold();
+	{grabPaper(layer with leg);
+		foldPaper(to left side);
+	}
+	{grabPaper(last layer on left side);
+		foldPaper(over to right side);
+	}
+	{grabPaper(right top layer);
+		foldPaper(over to the left covering leg);
+	}
+	LegFold();
+	foldPaper(open to show both legs);
+ 	flipPaper(over);
+	foldPaper(Down 1mm from top of flat side);
+	{focus(left);
+		{For(loop 1)
+			Armfold();
+			focus(right);
+		}
+	}
+	foldPaper(Up point at bottom);
+	flipPaper();
+	draw(eyes);
+}
+
+		
+
+
+
+
+
+{LegFold()
+	{Focus(right side);
+		{Grab(right side);
+			Fold(down to under paper);
+		}
+	}
+}
+
+{ArmFold()
+	{Grab(one layer under folded down part);
+		{Fold(up to make an arm);
+			Fold(down top to make a point);
+		}
+	}
+}
